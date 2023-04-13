@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <style>
+      /* Optional: Add some styles for the banner ad */
+      #banner-ad {
+        width: 100%;
+        height: 90px;
+        background-color: #eee;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to my website</h1>
+    <div id="banner-ad"></div>
+    
+    <!-- Rest of your website content goes here -->
+    
+    <script>
+      // Load the AdMob library
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "2258901569814641",
+        enable_page_level_ads: true
+      });
+      
+      // Create and display the banner ad
+      var adDiv = document.getElementById('banner-ad');
+      adDiv.innerHTML = '<ins class="adsbygoogle" style="display:block" data-ad-client="2258901569814641" data-ad-slot="9419045006" data-ad-format="auto"></ins>';
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </body>
+</html>
+
+// ca-app-pub-2258901569814641/9419045006
